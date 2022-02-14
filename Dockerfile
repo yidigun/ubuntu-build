@@ -1,5 +1,5 @@
 ARG IMG_TAG
-FROM docker.io/yidigun/ubuntu-base:${TAG}
+FROM docker.io/yidigun/ubuntu-base:${IMG_TAG}
 
 ARG IMG_NAME
 ARG LANG=ko_KR.UTF-8
