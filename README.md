@@ -1,5 +1,7 @@
 # Ubuntu Build Image
 
+Ubuntu base image for multi-staged image building.
+
 ## Ubuntu License
 
 See https://ubuntu.com/legal/intellectual-property-policy
@@ -9,6 +11,16 @@ See https://ubuntu.com/legal/intellectual-property-policy
 It's just free. (Public Domain)
 
 See https://github.com/yidigun/ubuntu-build
+
+## Supported tags
+
+* ```20.04```, ```focal-20220113```, ```focal```, ```latest```
+* ```21.10```, ```impish-20220128```, ```impish```, ```rolling```
+* ```22.04```, ```jammy-20220130```, ```jammy```, ```devel```
+
+## Changelog
+
+* 2022-02-18 - Change default locale to en_US.UTF-8, timezone to UTC
 
 ## Use Image
 

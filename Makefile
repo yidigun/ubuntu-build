@@ -2,7 +2,7 @@ REPO			= docker.io
 IMG_NAME		= yidigun/ubuntu-build
 
 TAG				= 20.04
-EXTRA_TAGS		= latest
+EXTRA_TAGS		= focal latest
 TEST_ARGS		=
 
 IMG_TAG			= $(TAG)
