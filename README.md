@@ -14,9 +14,9 @@ See https://github.com/yidigun/ubuntu-build
 
 ## Supported tags
 
-* ```20.04```, ```focal-20220113```, ```focal```, ```latest```
-* ```21.10```, ```impish-20220128```, ```impish```, ```rolling```
-* ```22.04```, ```jammy-20220130```, ```jammy```, ```devel```
+* ```20.04```, ```focal-20220404```, ```focal```, ```latest```
+* ```21.10```, ```impish-20220404```, ```impish```, ```rolling```
+* ```22.04```, ```jammy-20220404```, ```jammy```, ```devel```
 
 ## Changelog
 
