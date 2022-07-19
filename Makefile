@@ -9,7 +9,7 @@ IMG_TAG			= $(TAG)
 PUSH			= yes
 BUILDER			= crossbuilder
 PLATFORM		= linux/amd64,linux/arm64
-BUILD_OPTS		= --progress=plain
+#BUILD_OPTS		= --progress=plain
 
 .PHONEY: $(BUILDER) $(TAG) all test
 
