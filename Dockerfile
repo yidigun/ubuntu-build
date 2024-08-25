@@ -1,4 +1,4 @@
-ARG IMG_TAG
+ARG IMG_TAG=latest
 FROM docker.io/yidigun/ubuntu-base:${IMG_TAG}
 
 ARG IMG_NAME

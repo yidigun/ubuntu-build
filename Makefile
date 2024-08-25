@@ -1,8 +1,8 @@
 REPO			= docker.io
 IMG_NAME		= yidigun/ubuntu-build
 
-TAG				= 20.04
-EXTRA_TAGS		= focal latest
+TAG				= noble-20240801
+EXTRA_TAGS		= 24.04 noble latest rolling
 TEST_ARGS		=
 
 IMG_TAG			= $(TAG)
@@ -59,8 +59,8 @@ $(BUILDER):
 	  : do nothing; \
 	else \
 	  CMD="docker buildx create --name $(BUILDER) \
-	    --driver docker-container"; \
-	    --platform \"$(PLATFORM)\" \
+	    --driver docker-container \
+	    --platform \"$(PLATFORM)\"" \
 	  echo $$CMD; \
 	  eval $$CMD; \
 	fi
