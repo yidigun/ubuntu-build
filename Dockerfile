@@ -14,5 +14,5 @@ RUN sed -i -e '/deb-src/s/^#\s*//' /etc/apt/sources.list && \
             /etc/apt/sources.list.d/ubuntu.sources; \
     fi; \
     apt-get -y update && \
-    apt-get -y install dpkg-dev && \
+    apt-get -y install dpkg-dev git && \
     apt-get clean
